@@ -3,7 +3,6 @@ package com.gl.aggregation;
 import java.util.ArrayList;
 import java.util.List;
 
-//
 class Book {
 
 	private String title;
