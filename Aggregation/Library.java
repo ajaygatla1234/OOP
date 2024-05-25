@@ -72,9 +72,12 @@ public class Library{
 		library.addBook(book2);  //using User Defined method
 
 		System.out.println(library.libraryName);
-		for(Book book:library.getBooks()) {
+		for(Book book:library.getBooks()) {  //Iterates over the list and calls toString on each element, which is why your Book objects' toString methods are called when printing the list.
 			System.out.println(book);
 		}
+		// OR
+		//System.out.println(library.books.toString());  //Iterates over the list and calls toString on each element, which is why your Book objects' toString methods are called when printing the list.
+		
 
 		//Extra : We can also add new list to books
 		Book book3=new Book("Ramayanam", "Valmiki");
