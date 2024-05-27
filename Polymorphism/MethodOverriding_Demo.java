@@ -46,5 +46,9 @@ public class MethodOverriding_Demo {
 			obj2.info1();
 			obj2.info2();
 		}
+
+		//If we want to Perform down-casting, we cannot do it directly, because we get ClassCastException.
+		//So first perform up-casting, later perform Down-casting (Like above codes)
+		Child obj2=(Child) new Parent();  //ClassCastException
 	}
 }
