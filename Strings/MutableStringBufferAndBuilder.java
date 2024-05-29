@@ -5,6 +5,7 @@ public class MutableStringBufferAndBuilder {
 	public static void main(String[] args) {
 		
 		System.out.println("\n=============String Buffer=============\n");
+		//synchronized (thread safe)
 		
 		StringBuffer str= new StringBuffer("Welcome to StringBuffer");
 		
@@ -19,6 +20,7 @@ public class MutableStringBufferAndBuilder {
 		
 		
 		System.out.println("\n=============String Builder=============\n");
+		//not synchronized (not thread safe)
 		
 		StringBuilder str1= new StringBuilder("Welcome to StringBuffer");
 		
