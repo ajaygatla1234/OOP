@@ -154,5 +154,5 @@ public class Comparator_Demo {
 	}
 
 	// Instead of using separate Comparator classes and overriding compare() methods, we can use Lambda Expressions to simplify the code.
-	// They provide a concise way to represent anonymous functions, making the code more readable and reducing boilerplate code.
+	// They provide a concise(short & clear) way to represent anonymous functions, making the code more readable and reducing boilerplate code.
 }
