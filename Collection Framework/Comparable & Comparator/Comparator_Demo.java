@@ -77,6 +77,7 @@ class CustomerIdSorter implements Comparator<Customer>{
 			return 0;
 		}
 	}
+	// To sort in descending order, either swap the return values (-1 and 1) or swap "customer1" and "customer2" in the comparisons.
 }
 
 class CustomerCitySorter implements Comparator<Customer>{
@@ -93,6 +94,7 @@ class CustomerCitySorter implements Comparator<Customer>{
 			return 0;
 		}
 	}
+	// To sort in descending order, either swap the return values (-1 and 1) or swap "o1" and "o2" in the comparisons.
 }
 
 class CustomerPurchaseValueSorter implements Comparator<Customer>{
@@ -104,13 +106,13 @@ class CustomerPurchaseValueSorter implements Comparator<Customer>{
 			return 1;
 		}
 		else if(o1.getPurchaseValue()<o2.getPurchaseValue()) {
-			return -11;
+			return -1;
 		}
 		else {
 			return 0;
 		}
 	}
-
+	// To sort in descending order, either swap the return values (-1 and 1) or swap "o1" and "o2" in the comparisons.
 }
 
 public class Comparator_Demo {
