@@ -73,7 +73,9 @@ class Student implements Comparable<Student>{
 	    } else {
 	        return 0;
 	    }
-	}//using Functional Programming(lambda Expression) will make easy to override compareTo() in Comparable interface
+	}
+	// To sort in descending order, either swap the return values (-1 and 1) or swap "this" and "student" in the comparisons.
+	//using Functional Programming(lambda Expression) will make easy to override compareTo() in Comparable interface
 
 	
 	//Sorting with respect to Name
