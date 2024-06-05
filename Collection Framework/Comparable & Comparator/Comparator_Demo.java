@@ -152,4 +152,7 @@ public class Comparator_Demo {
 			System.out.println(cusItr4.next());
 		}
 	}
+
+	// Instead of using separate Comparator classes and overriding compare() methods, we can use Lambda Expressions to simplify the code.
+	// They provide a concise way to represent anonymous functions, making the code more readable and reducing boilerplate code.
 }
