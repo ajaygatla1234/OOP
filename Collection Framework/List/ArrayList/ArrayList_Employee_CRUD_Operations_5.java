@@ -114,13 +114,13 @@ public class ArrayList_Employee_CRUD_Operations_5 {
 
 }
 
-class Employee {
-
+class Employee implements Comparable<Employee>{
+	
 	int empId;
 	String name;
 	String address;
 	double salary;
-
+	
 	public Employee() {
 		super();
 	}
@@ -165,4 +165,15 @@ class Employee {
 		this.salary = salary;
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", name=" + name + ", address=" + address + ", salary=" + salary + "]";
+	}
+
+	@Override
+	public int compareTo(Employee o) {
+		return Integer.compare(this.empId, o.empId);
+
+	}
+	
 }
