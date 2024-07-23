@@ -99,6 +99,20 @@ public class ArrayList_2 {
 		
 		//explore more methods
 		System.out.println("\nexplore more methods");
+
+
+		ArrayList<int[]> al1 = new ArrayList<>();
+       		int[] arr = {1, 2, 3};
+         	al1.add(arr);
+
+         	int[] searchArr = {1, 2, 3};
+
+         	// Since contains() compares only references, it compares the searchArr address
+	        // with addresses of elements present in the collection. Since both references are different, it gives false
+	        System.out.println(al1.contains(searchArr)); // false
+	
+	        // This will print true because al1 contains the exact same reference as arr
+	        System.out.println(al1.contains(arr)); // true
 	}
 
 }
