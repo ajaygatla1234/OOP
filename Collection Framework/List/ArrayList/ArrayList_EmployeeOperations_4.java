@@ -118,7 +118,7 @@ public class ArrayList_EmployeeOperations_4 {
 
 	public static void main(String[] args) {
 	
-		ArrayList_Sample_3 obj=new ArrayList_Sample_3();
+		ArrayList_EmployeeOperations_4 obj=new ArrayList_EmployeeOperations_4();
 		
 		obj.populateArrayList();
 		obj.fetchArrayList();
