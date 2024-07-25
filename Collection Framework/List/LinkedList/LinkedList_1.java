@@ -13,6 +13,7 @@ public class LinkedList_1 {
 
 		//Now we are seeing the LinkedList in List point of view
 		//but there will be no difference, when we use Queue, other methods will also gets added thats it
+		//Check it in Queue Folder
 
 		//LinkedList cannot be created with an initial size since it grows dynamically as needed
 		//we have to create either empty(0) or by passing any list
